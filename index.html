@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GYM MASTER</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../solartech/css/bootstrap.min.css "> 
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  
+ <!-- Hero Slider -->
+ <nav class="navbar navbar-expand-lg navbar-dark mt-3 fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../gymnew/img/logo.png" alt="Logo" height="40px"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4 pe-4">
+        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
+        <li class="nav-item"><a class="nav-link" href="classes.html">CLASSES</a></li>
+        <li class="nav-item"><a class="nav-link" href="service.html">SERVICES</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">OUR TEAM</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown">
+              PAGES
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="timetable.html">Classes TimeTable</a></li>
+              <li><a class="dropdown-item" href="calculator.html">BMI Calculate</a></li>
+              <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+              <li><a class="dropdown-item" href="gallary.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="blog.html">Our Blog</a></li>
+              <li><a class="dropdown-item" href="error.html">404</a></li>
+          </ul>
+      </li>
+
+
+       
+        <li class="nav-item"><a class="nav-link" href="cinsert.php">CONTACT</a></li>
+      </ul>
+      <div class="d-flex align-items-center ms-3 gap-3">
+        <i class="fa-solid fa-magnifying-glass text-white"></i>
+        <i class="fa-brands fa-facebook-f text-white"></i>
+        <i class="fa-brands fa-twitter text-white"></i>
+        <i class="fa-brands fa-instagram text-white"></i>
+        <a href="registation.php"><i class="fa-solid fa-user text-white"></i></a>
+        <a href="login.php"><i class="fa-solid fa-right-to-bracket  text-white"></i></a>        
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Slider -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="../gymnew/img/hero/hero-1.jpg" class="d-block w-100  " height="700vh" alt="Slide 1"/>
+      <div class="carousel-caption d-none d-md-block">
+        <div class="d3">SHAPE YOUR BODY</div>
+        <h1 class="d4 fw-bold">BE <span class="text-warning" style="color: #f36100 !important;">STRONG</span><br/>TRAINING HARD</h1>
+        <a href="#" class="btn btn-outline-warning mt-3 px-4 py-2">GET INFO</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="../gymnew/img/hero/hero-2.jpg" class="d-block w-100 " height="700vh" alt="Slide 2"/>
+      <div class="carousel-caption d-none d-md-block">
+        <div class="d3">FITNESS & POWER</div>
+        <h1 class="d4 fw-bold">PUSH <span class="text-warning" style="color: #f36100 !important;">YOUR LIMITS</span></h1>
+        <a href="#" class="btn btn-outline-warning mt-3 px-4 py-2">LEARN MORE</a>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+  <!-- why chose us -->
+
+  <div class="container-fluid why">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-w mt-5">
+        <p class="ch-t mt-5">Why chose us?</p>
+        <p class="text-white fs-3  fw-bold ">PUSH YOUR LIMITS FORWARD</p>
+      </div>
+      <div class="container mt-3 mb-5">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="icon-main">
+              <div class="icon-why">
+                <i class="fa-solid fa-robot fa-2xl"></i>
+              </div>
+            </div>
+            <p class="icon-text fs-5 fw-bold text-white mt-3">Modern equipment</p>
+            <p class="icon-text fs-6 text-secondary mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do
+              eiusmod tempor incididunt ut dolore facilisis.</p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="icon-main">
+              <div class="icon-why">
+                <i class="fa-solid fa-hand-holding-droplet fa-2xl"></i>
+              </div>
+            </div>
+            <p class="icon-text fs-5 fw-bold text-white mt-3">Healthy nutrition plan</p>
+            <p class="icon-text fs-6 text-secondary mt-2">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+              maecenas accumsan lacus vel facilisis.</p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="icon-main">
+              <div class="icon-why">
+                <i class="fa-solid fa-dumbbell fa-2xl"></i>
+              </div>
+            </div>
+            <p class="icon-text fs-5 fw-bold text-white mt-3">Proffesponal training plan</p>
+            <p class="icon-text fs-6 text-secondary mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut dolore facilisis.</p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="icon-main">
+              <div class="icon-why">
+                <i class="fa-solid fa-heart-pulse fa-2xl"></i>
+
+              </div>
+            </div>
+            <p class="icon-text fs-5 fw-bold text-white mt-3">Unique to your needs</p>
+            <p class="icon-text fs-6 text-secondary mt-2">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+              maecenas accumsan lacus vel facilisis.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- our classes -->
+  <div class="container-fluid our pb-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-w mt-2">
+        <p class="ch-t mt-5">Our Classes</p>
+        <p class="text-white fs-3  fw-bold ">WHAT WE CAN OFFER</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mt-2 ">
+          <div class="card-main ">
+            <div class="card-banner">
+              <img src="../gymnew/img/classes/class-1.jpg" class="card-img-top" alt="...">
+              <div class="seprated">
+
+              </div>
+            </div>
+            <div class="card-b mt-3">
+              <div class="card-te ms-3 mb-2">
+                <p class="card-color fs-6 ">STRENGTH</p>
+                <p class="text-white fs-5 fw-bold ">WEIGHLIFTING</p>
+              </div>
+              <div class="card-bu bg-dark me-4 mb-2">
+                <a href="#">
+                  <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mt-2 ">
+          <div class="card-main ">
+            <div class="card-banner">
+              <img src="../gymnew/img/classes/class-2.jpg" class="card-img-top" alt="...">
+              <div class="seprated">
+
+              </div>
+            </div>
+            <div class="card-b mt-3">
+              <div class="card-te ms-3 mb-2">
+                <p class="card-color fs-6 ">Cardio</p>
+                <p class="text-white fs-5 fw-bold ">Indoor cycling</p>
+              </div>
+              <div class="card-bu bg-dark me-4 mb-2">
+                <a href="#">
+                  <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mt-2">
+          <div class="card-main ">
+            <div class="card-banner">
+              <img src="../gymnew/img/classes/class-3.jpg" class="card-img-top" alt="...">
+              <div class="seprated">
+
+              </div>
+            </div>
+            <div class="card-b mt-3">
+              <div class="card-te ms-3 mb-2">
+                <p class="card-color fs-6 ">STRENGTH</p>
+                <p class="text-white fs-5 fw-bold ">Kettlebell power</p>
+              </div>
+              <div class="card-bu bg-dark me-4 mb-2">
+                <a href="#">
+                  <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-5 col-xxl-5 mt-4 ">
+          <div class="card-main1">
+            <div class="card-banner1">
+              <img src="../gymnew/img/classes/class-4.jpg" class="card-img-top cls-img" alt="...">
+              <div class="seprated">
+
+              </div>
+            </div>
+            <div class="card-b1 mt-3">
+              <div class="card-te ms-3 mb-2">
+                <p class="card-color1 fs-6 ">Cardio</p>
+                <p class="text-white fs-5 fw-bold ">Indoor cycling</p>
+              </div>
+              <div class="card-bu1 bg-dark me-4 mb-2">
+                <a href="#">
+                  <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  col-xl-5 col-xxl-5 mt-4">
+          <div class="card-main1">
+            <div class="card-banner1">
+              <img src="../gymnew/img/classes/class-5.jpg" class="card-img-top" alt="...">
+              <div class="seprated">
+
+              </div>
+            </div>
+            <div class="card-b1 mt-3">
+              <div class="card-te ms-3 mb-2">
+                <p class="card-color1 fs-6 ">Training</p>
+                <p class="text-white fs-5 fw-bold ">Boxing</p>
+              </div>
+              <div class="card-bu1 bg-dark me-4 mb-2">
+                <a href="#">
+                  <i class="fa-solid fa-greater-than" style="color: #ffffff;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- appointment -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="img-app col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 justify-content-center align-item-center">
+        <div class="app-text">
+          <div>
+
+
+            <p class="fs-1 text-white fw-bold ">registration now to get more deals</p>
+            <p class="fs-4 s-text">Where health, beauty and fitness meet. </p>
+            <button class="btnapp">APPOINTMENT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- our plan -->
+
+  <div class="container-fluid our pb-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-w mt-2">
+        <p class="ch-t mt-5">OUR PLAN</p>
+        <p class="text-white fs-3  fw-bold text-uppercase ">Choose your pricing plan</p>
+      </div>
+    </div>
+  </div>
+  <div class=" our d-flex ">
+    <div class="container">
+      <div class="row mb-5 justify-content-center gy-4">
+        <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4  col-xxl-4 mt-3 p1">
+          <div class="plan">
+            <div class="main-info">
+              <p class="fs-3 fw-bold t-head "> Class drop-in</p>
+              <div class="t-head1">
+                <h2 class="t-head11">$39.0</h2>
+                <p class="t-head12">Single Classes</p>
+              </div>
+              <ul class="text-li">
+                <li>Free ridinig</li>
+                <li>Unlimited equipment</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+            </div>
+            <div class="btn-now">
+              <button class="btn-en">ENROLL NOW</button>
+            </div>
+
+
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4  col-xxl-4 mt-3 p1">
+          <div class="plan">
+            <div class="main-info">
+              <p class="fs-3 fw-bold t-head "> 12 Month unlimited</p>
+              <div class="t-head1 ">
+                <h2 class="t-head11">$99.0</h2>
+                <p class="t-head12">Single Classes</p>
+              </div>
+              <ul class="text-li ">
+                <li>Free ridinig</li>
+                <li>Unlimited equipment</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+            </div>
+            <div class="btn-now">
+              <button class="btn-en">ENROLL NOW</button>
+            </div>
+
+
+          </div>
+        </div>
+        <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4  col-xxl-4 mt-3 p1">
+          <div class="plan">
+            <div class="main-info">
+              <p class="fs-3 fw-bold  t-head "> 6 Month unlimited</p>
+              <div class="t-head1">
+                <h2 class="t-head11">$59.0</h2>
+                <p class="t-head12">Single Classes</p>
+              </div>
+              <ul class="text-li">
+                <li>Free ridinig</li>
+                <li>Unlimited equipment</li>
+                <li>Personal trainer</li>
+                <li>Weight losing classes</li>
+                <li>Month to mouth</li>
+                <li>No time restriction</li>
+              </ul>
+            </div>
+            <div class="btn-now">
+              <button class="btn-en">ENROLL NOW</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- image -->
+
+  <div class="container-fluid pt-5 image-all padi1">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 ">
+        <img src="../gymnew/img/gallery/gallery-1.jpg" class="img-set " alt="img1">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mt-2">
+        <img src="../gymnew/img/gallery/gallery-2.jpg" class="img-set" alt="img2">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mt-2">
+        <img src="../gymnew/img/gallery/gallery-3.jpg" class="img-set" alt="img3">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mt-2">
+        <img src="../gymnew/img/gallery/gallery-4.jpg" class="img-set" alt="img4">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mt-2">
+        <img src="../gymnew/img/gallery/gallery-5.jpg" class="img-set" alt="img5">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2">
+        <img src="../gymnew/img/gallery/gallery-6.jpg" class="img-set" alt="img6">
+      </div>
+    </div>
+  </div>
+
+  <!-- our team -->
+  <div class="container-fluid image-all pt-4">
+    <div class="row">
+      <div
+        class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 d-flex mt-4 d-flex justify-content-around">
+        <div class="fir">
+          <p class="f1">OUR TEAM</p>
+          <p class="f2">TRAIN WITH EXPERTS</p>
+        </div>
+        <div class="sec mt-4">
+          <button class="btnapp">APPOINTMENT</button>
+        </div>
+      </div>
+    </div>
+     <div class="container">
+    <div class="row main-sl">
+      <div class="owl-carousel owl-theme" id="demo2">
+        <div class="item">
+          <img src="../gymnew/img/team/team-1.jpg" height="450px" width="360px" class="img-s" alt="team1">
+          <div class="effect">
+            <h4 class="e1">Athrat Rachel</h4>
+            <p class="e2">GYM TRAINER</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../gymnew/img/team/team-2.jpg" height="450px" width="360px" class="img-s" alt="team2">
+          <div class="effect">
+            <h4 class="e1">Athrat Rachel</h4>
+            <p class="e2">GYM TRAINER</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../gymnew/img/team/team-3.jpg" height="450px" width="360px" class="img-s" alt="team3">
+          <div class="effect">
+            <h4 class="e1">Athrat Rachel</h4>
+            <p class="e2">GYM TRAINER</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../gymnew/img/team/team-4.jpg" height="450px" width="360px" class="img-s" alt="team4">
+          <div class="effect">
+            <h4 class="e1">Athrat Rachel</h4>
+            <p class="e2">GYM TRAINER</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="../gymnew/img/team/team-5.jpg" height="450px" width="360px" class="img-s" alt="team5">
+          <div class="effect">
+            <h4 class="e1">Athrat Rachel</h4>
+            <p class="e2">GYM TRAINER</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  
+  <!-- footer icon -->
+
+  <div class="footer1 pb-4">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+          <div class="foot">
+            <div class="f-icon">
+              <i class="fa-solid fa-location-dot fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="f-add">
+              <p>333 Middle Winchendon Rd, Rindge, <br>NH 03461</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+          <div class="foot">
+            <div class="f-icon">
+              <i class="fa-solid fa-mobile-screen-button fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="f-add">
+              <p> 125-711-811 | 125-668-886</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+          <div class="foot">
+            <div class="f-icon">
+              <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div class="f-add">
+              <p>
+                Support.gymcenter@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer 2 -->
+
+  <div class="footer2 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+          <ul class="fo-ul">
+            <li><img src="/img/logo.png" alt=""></li>
+            <li class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+              ut labore dolore magna aliqua endisse ultrices gravida lorem.</li>
+            <li class="pt-2">
+              <i class="fa-brands fa-facebook-f fa-sm ms-2" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-twitter fa-sm ms-2" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-youtube fa-sm ms-2" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-instagram fa-sm ms-2" style="color: #ffffff;"></i>
+              <i class="fa-regular fa-envelope fa-sm ms-2" style="color: #ffffff;"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-xxl-2 mt-4">
+          <ul class="fo-ul">
+            <li>
+              <h3 class="text-white fw-bold">Useful link</h3>
+            </li>
+            <li class="pt-3">About</li>
+            <li class="pt-1">Blog</li>
+            <li class="pt-1">Classes</li>
+            <li class="pt-1">Contact</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-xxl-2 mt-4">
+          <ul class="fo-ul">
+            <li>
+              <h3 class="text-white fw-bold">Support</h3>
+            </li>
+            <li class="pt-3">Login</li>
+            <li class="pt-1">My account</li>
+            <li class="pt-1">Subscribe</li>
+            <li class="pt-1">Contact</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-4">
+          <ul class="fo-ul">
+            <li>
+              <h3 class="text-white fw-bold">Tips & Guides</h3>
+            </li>
+            <li class="pt-2 font2">Physical fitness may help prevent depression, anxiety</li>
+            <li class="pt-1 font1">
+              <pre>3 min read  |  20 comment</pre>
+            </li>
+            <li>
+              <hr>
+            </li>
+            <li class="font2">Fitness: The best exercise to lose belly fat and tone up...</li>
+            <li class=" font1">
+              <pre>3 min read  |  20 comment</pre>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          <hr class="line">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 pt-2 pb-4">
+          <p class="l-foot">Copyright ©2025 All rights reserved | This template is made with <a href="#"
+              class="heart">&#10084</a> by <a href="#" class="foot-li">Colorlib</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="../solartech/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="index.js"></script>
+<script>
+  // Open menu
+  document.querySelector('.canvas-open').addEventListener('click', function () {
+    document.querySelector('.offcanvas-menu-wrapper').classList.add('active');
+  });
+
+  // Close menu
+  document.querySelector('.canvas-close').addEventListener('click', function () {
+    document.querySelector('.offcanvas-menu-wrapper').classList.remove('active');
+  });
+</script>
+
+</html>
